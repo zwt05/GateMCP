@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "packaging_date": "2026-10-08",
+  "scope": "Source-file provenance only; not a runtime validation receipt or claim of historical numerical reproduction",
+  "source_files": [
+    {
+      "source_path": "qwen3_framework/__init__.py",
+      "source_sha256": "9f6212bf7ae76fd610a52b97cc168cfa121c5ac424c4fd7b90d78cf68ec95b4d",
+      "target_path": "qwen3_framework/__init__.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/__init__.py",
+      "source_sha256": "11533aeeedeb4c5797d71f4ca408f96733e1aab11ac5b59766d58cddb80a6d86",
+      "target_path": "qwen3_framework/general_mcp/__init__.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/adapters/__init__.py",
+      "source_sha256": "5d12699e6d49d3ed5434644c449db46c59a440eefe96d472acbe14a664f3901d",
+      "target_path": "qwen3_framework/general_mcp/adapters/__init__.py",
+      "transformation": "copied_byte_identically"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/adapters/base.py",
+      "source_sha256": "f9801895dc54873735a9d52983e75fdacc2c36c3fee1c568d72a54f19c96edff",
+      "target_path": "qwen3_framework/general_mcp/adapters/base.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/adapters/game24.py",
+      "source_sha256": "b3fcaa53a800573e2b424cf48fbaaca37907f1df33d24255e58a8ad40773d8eb",
+      "target_path": "qwen3_framework/general_mcp/adapters/game24.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/adapters/blocksworld.py",
+      "source_sha256": "642280f25bfd4c81ce743eef4143b76dc6aa0826fcd8b5cb86ebdceb7943576a",
+      "target_path": "qwen3_framework/general_mcp/adapters/blocksworld.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/adapters/math_word.py",
+      "source_sha256": "ca49243133176795912d85ec23f6bceb7002e98afd25abfb351a0510b4fac561",
+      "target_path": "qwen3_framework/general_mcp/adapters/math_word.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/backends.py",
+      "source_sha256": "e21f4a4f339e4265b996c1110cd3aa06448086cd0e11e4634424b322573a6e99",
+      "target_path": "qwen3_framework/general_mcp/backends.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/controller.py",
+      "source_sha256": "8d064e1936392b5d451a3d9cb32d473de870828906052efeaf751c54c6584979",
+      "target_path": "qwen3_framework/general_mcp/controller.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/gateway.py",
+      "source_sha256": "f86fc2ee2a6232ffa2f377e0241cf691992d5b361e36be4caf12c711f44e7bb7",
+      "target_path": "qwen3_framework/general_mcp/gateway.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/mcp_server.py",
+      "source_sha256": "b2484b400019b027dd4bd76ce7650ae9d231904dc2bc7c769c9e04321f848872",
+      "target_path": "qwen3_framework/general_mcp/mcp_server.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/registry.py",
+      "source_sha256": "a060e2191d5eb96c926f3355afff1a02759951fcafeacf05ff5350904f3ef8b6",
+      "target_path": "qwen3_framework/general_mcp/registry.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/general_mcp/schema.py",
+      "source_sha256": "500d4f838a4e77edf48065bd10625bf6af4641db227009dad9c64908dbf302f4",
+      "target_path": "qwen3_framework/general_mcp/schema.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "qwen3_framework/scripts/run_general_experiment.py",
+      "source_sha256": "2b1887ca6515608c14c86d1cf94bddca794cebc4cc1db675bc7b6f316260eed1",
+      "target_path": "qwen3_framework/scripts/run_general_experiment.py",
+      "transformation": "paper_scope_refactor"
+    },
+    {
+      "source_path": "A_progressive_mcp/src/progressive_mcp/core.py",
+      "source_sha256": "2bc10c982cf575c519c79980c54718542bd06cb20794f903e62f7764a0a9e9fa",
+      "target_path": "qwen3_framework/general_mcp/game24_core.py",
+      "transformation": "copied_byte_identically"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "qwen3_framework/config/models.json",
+      "sha256": "4778d213c0dd641918849b4011e88bd405b3dafa295b4812d29098cbf572349a"
+    },
+    {
+      "path": "qwen3_framework/config/models_cross_family.json",
+      "sha256": "644b37657544e37fa62b9ad8441fc206260d8469fbf97530b99973cd7c0d93ec"
+    },
+    {
+      "path": "qwen3_framework/requirements-gpu.txt",
+      "sha256": "5fd562825340eef127bd876b5a5c15728c083450d6c41ef5917e3590f9ee5314"
+    },
+    {
+      "path": "A_progressive_mcp/requirements.txt",
+      "sha256": "7dd02dc366e53bd8706e6028dea7bed4cf574ec35ba1e8d713405e876da706d9"
+    },
+    {
+      "path": "output/pdf/gatemcp_figure1_caption_20261008/work/paper_neurocomputing_cn.tex",
+      "sha256": "24a7ca76ba56c0dad680aa6558fa1ccbeb540d408a605dca615f40fabe71220a"
+    },
+    {
+      "path": "output/seed43_paper_20260922/seed43_source_manifest.json",
+      "sha256": "b5765dab4b22865e96ad526ad79a214c9a238e4f77bdf6cd9d775508adc0e397"
+    }
+  ],
+  "excluded_content": "No original server/private paths, credentials, full legacy manifests, model weights, raw experimental traces, or paper archives were copied.",
+  "notes": [
+    "Model repository IDs and recorded Llama revisions originate from the two model configs; Qwen revisions are absent there.",
+    "Current source default behavior is the equivalence-test baseline. Historical audit cells originated from several earlier code roots and are not relabeled as this source snapshot.",
+    "The Game24 core was copied byte-for-byte; only its importing adapter path changed."
+  ]
+}

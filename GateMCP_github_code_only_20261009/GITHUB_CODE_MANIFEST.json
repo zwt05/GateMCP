@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "package": "GateMCP_github_code_only_20261009",
+  "source_package": "GateMCP_paper_code_with_manual_paper_names_20261009",
+  "scope": "GitHub-oriented code snapshot; no source-code or runtime-logic changes; frozen benchmark data excluded.",
+  "license_status": "No project license added; ownership and third-party terms require review before public open-source release.",
+  "excluded_files": [
+    {
+      "path": "qwen3_framework/data/full_evaluation/game24.jsonl",
+      "bytes": 138701,
+      "sha256": "fce419bda035bc8bc8e31bdf1f8ae851d3caa724524a6ff6c8769275a02f1c36",
+      "reason": "Redistribution rights were not established for this bundle."
+    },
+    {
+      "path": "qwen3_framework/data/full_evaluation/blocksworld.jsonl",
+      "bytes": 287606,
+      "sha256": "b08d515939bdc570e25283f34c4a73c011e22c8c0dbc35c92291c83067bab8b9",
+      "reason": "Redistribution rights were not established for this bundle."
+    },
+    {
+      "path": "qwen3_framework/data/full_evaluation/gsm8k.jsonl",
+      "bytes": 1092722,
+      "sha256": "4d63e8cbb8a95a864615be4e3de75d692bbeb639ec40c1f537eb661d95ab15e3",
+      "reason": "Redistribution rights were not established for this bundle."
+    },
+    {
+      "path": "qwen3_framework/data/full_evaluation/svamp.jsonl",
+      "bytes": 409566,
+      "sha256": "e4dd563955596a5c09d1b09d47c519c71ea1e2157db1db9975530a1047beb305",
+      "reason": "Redistribution rights were not established for this bundle."
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 159,
+      "sha256": "97f22970e32b785f518ca3f86df744e51eb16b9c93906382c479f6dee4defac1"
+    },
+    {
+      "path": "CHANGES.md",
+      "bytes": 6528,
+      "sha256": "858911f38d98ff71b9d240f6923457914930c59f137c18a0941043ad47307967"
+    },
+    {
+      "path": "config/model_paths.example.json",
+      "bytes": 226,
+      "sha256": "5586a831e8abadef8dc862a60dfd70af3fa4ff86db040b9d59d17034d7fd03d5"
+    },
+    {
+      "path": "config/paper_protocol.json",
+      "bytes": 5545,
+      "sha256": "7788d77a132055d0b2896bb9f4c56a459d1ebd3a5498063e0cdfaee7718794bf"
+    },
+    {
+      "path": "DATA_REQUIREMENTS.md",
+      "bytes": 1641,
+      "sha256": "f0ac998ce1f603d14bb2c1e55ce86a0b9454e77505c3ef6b92fbee43b63f887e"
+    },
+    {
+      "path": "GITHUB_UPLOAD_NOTES_CN.md",
+      "bytes": 1069,
+      "sha256": "f036375dca35580e4481ad4b72fc546f410adcde6095f7bab07a70e49d366ec8"
+    },
+    {
+      "path": "METHODS.md",
+      "bytes": 3050,
+      "sha256": "7aef7ed33d712f73e167c824588b7b5ee9850d33bb9a9e90705c97c045c54ae0"
+    },
+    {
+      "path": "qwen3_framework/__init__.py",
+      "bytes": 48,
+      "sha256": "4a6eaf2471f3324bebd37e5ebb71475322e0f5aa72d67271080600a280fffa96"
+    },
+    {
+      "path": "qwen3_framework/data/full_evaluation/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/__init__.py",
+      "bytes": 542,
+      "sha256": "13e90315e36190bc795636670a371405471d999e4dc86517f57275da76ba5542"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/adapters/__init__.py",
+      "bytes": 301,
+      "sha256": "5d12699e6d49d3ed5434644c449db46c59a440eefe96d472acbe14a664f3901d"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/adapters/base.py",
+      "bytes": 2162,
+      "sha256": "9c38ea08eb7a6d5decb0fd2e81503897e014a1300ec797f93aba5165996b1b82"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/adapters/blocksworld.py",
+      "bytes": 14105,
+      "sha256": "f4bfe3518a9fd6befa490bbf44c0c02c65b379ecb484872034770b101fc1b8da"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/adapters/game24.py",
+      "bytes": 4797,
+      "sha256": "5e96eeacafd5b737e2b551be3e82b2949dce7c0c820ac15f5fb9a99510bef9c4"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/adapters/math_word.py",
+      "bytes": 7137,
+      "sha256": "85f7e22513d540216d13b5464d88a99bcc9a0cc75b3354c705b38225d72bf04e"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/backends.py",
+      "bytes": 5904,
+      "sha256": "377d9e3eaa989bbe1deec87b5a1b4b60df0588bd50bc1c69d0d2a2f26947b0fb"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/controller.py",
+      "bytes": 29389,
+      "sha256": "e999967c863d093bb77407b9949e3401d377a1c34e9933d6514eb0bd877009c9"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/game24_core.py",
+      "bytes": 11816,
+      "sha256": "2bc10c982cf575c519c79980c54718542bd06cb20794f903e62f7764a0a9e9fa"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/gateway.py",
+      "bytes": 4216,
+      "sha256": "19eb5d5c95f81e846cce8cfe42398788cee7d92dd2fb1d2d8610837023b56780"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/mcp_server.py",
+      "bytes": 1833,
+      "sha256": "c48ae8179893ede4f6092066a82df4a52ff98aa0e325c9eb3544b84e074b4329"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/metrics.py",
+      "bytes": 5671,
+      "sha256": "3b0ce42849631499c1b5b126236bf5904845f8910572e8d7e02cd5df32941d81"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/registry.py",
+      "bytes": 570,
+      "sha256": "cb0c582f8442d009c11b089b2e2e970bdd9ff368bb281ab52e4b7649b7934a56"
+    },
+    {
+      "path": "qwen3_framework/general_mcp/schema.py",
+      "bytes": 3443,
+      "sha256": "d8414f8128b977902746f5715c6c37d3c55def75afcc352463f91172183c1c57"
+    },
+    {
+      "path": "qwen3_framework/scripts/aggregate_paper_results.py",
+      "bytes": 12030,
+      "sha256": "f50692eec5cecb8633984f4cacf148dd190d6b777c0d03af8452898ee45238b1"
+    },
+    {
+      "path": "qwen3_framework/scripts/run_general_experiment.py",
+      "bytes": 13379,
+      "sha256": "09646ff82d596097e735e9658dc311b6d5eb7da0ee873e46d17201a856b52271"
+    },
+    {
+      "path": "qwen3_framework/scripts/run_paper_matrix.py",
+      "bytes": 6858,
+      "sha256": "0446dc35c6faee034454043ae83c239d94d98944b9e1fbdee61138a6281f5605"
+    },
+    {
+      "path": "README_CN.md",
+      "bytes": 1881,
+      "sha256": "dec10010ca4702f652bc5f923477b3139d35729f67714423400bc1ff68dd498d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2533,
+      "sha256": "20c9845d8f58f7432e0e2579d966267a3f7464e1fb8f8b9bd37530ece0169769"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 335,
+      "sha256": "2fe2ab065b259764116fd0be1e7b2ac9919a0802551bb3e4dcc7c12e9db0a5ba"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 6070,
+      "sha256": "7fe2b7151047d737b42b7ac0894893386c69b1fc9a8b225f0ab9001c548792e5"
+    },
+    {
+      "path": "tests/fixtures/synthetic.json",
+      "bytes": 1805,
+      "sha256": "8f853960261f97497dd7da7cfead7ab11d182e971128aec069856844fa02471b"
+    },
+    {
+      "path": "tests/test_paper_metrics.py",
+      "bytes": 7227,
+      "sha256": "8dc3b529dd936e6625802a3be5d4baa8701ce8c3b4a5d432dec55521987859a0"
+    },
+    {
+      "path": "tests/test_paper_package.py",
+      "bytes": 16498,
+      "sha256": "a7afc20d4e83613eed3d9d68e485b1d94d98379f7df503509df7d28b33073b52"
+    },
+    {
+      "path": "tools/compare_implementations.py",
+      "bytes": 3708,
+      "sha256": "ff85147732c0c729aa340c449c42e852d5fda96604b843191b5c9227dc5341f0"
+    },
+    {
+      "path": "tools/probe_implementation.py",
+      "bytes": 8432,
+      "sha256": "0d5b782f5a1b6a298c240f403c5c792b0d8127b80286aaec2bd850bf79308f05"
+    }
+  ]
+}
